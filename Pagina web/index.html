@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fsociety</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Fsociety</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Computadoras Personalizadas a tu Medida</h1>
+            <p>Construimos la PC perfecta para tus necesidades</p>
+            <a href="#productos" class="cta-button">Ver Productos</a>
+        </section>
+
+        <section id="productos" class="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-grid">
+                <div class="producto-card">
+                    <img src="img/gaming-pc.jpg" alt="PC Gaming">
+                    <h3>PC Gaming</h3>
+                    <p>Computadora de alto rendimiento para gaming</p>
+                    <button class="comprar-btn">Más información</button>
+                </div>
+                <div class="producto-card">
+                    <img src="img/workstation.jpg" alt="Workstation">
+                    <h3>Workstation</h3>
+                    <p>Estación de trabajo profesional</p>
+                    <button class="comprar-btn">Más información</button>
+                </div>
+                <div class="producto-card">
+                    <img src="img/office-pc.jpg" alt="PC Oficina">
+                    <h3>PC Oficina</h3>
+                    <p>Computadora para trabajo y productividad</p>
+                    <button class="comprar-btn">Más información</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contáctanos</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PC Custom. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
